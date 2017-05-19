@@ -9,5 +9,3 @@ This is an adequate example of how to perform sync with NodeJS, but if you need 
 ```sh
 docker run -td -v dir1:/sync1 -v dir2:/sync2 emcniece/node-sync-util
 ```
-
-docker run -td -v /Users/emcniece/Code/docker/rsync-util/dir1:/sync1 -v /Users/emcniece/Code/docker/rsync-util/dir2:/sync2 emcniece/node-sync-util
